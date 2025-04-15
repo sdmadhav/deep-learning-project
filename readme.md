@@ -12,9 +12,9 @@ The project consists of the following main directories and files:
 - **`mapping_train_test_valid.csv`**: CSV file containing the mapping of data samples to train, test, and validation splits.
 
 ### `saved_models/`
-- **`best_spectrogram_cnn.pth`**: The best model for emotion classification using spectrograms (CNN-based).
-- **`crnn_attention_final_model.pth`**: Final trained model for emotion classification using CRNN with attention mechanism.
-- **`best_model(1).keras`**: Keras model for emotion classification, trained on various features from the dataset.
+- **`best_spectrogram_cnn.pth`**: The best model for spectrogram emotion classification using spectrograms resmet18 (CNN-based).
+- **`crnn_attention_final_model.pth`**: Final trained model for audio emotion classification using CRNN with attention mechanism.
+- **`best_model(1).keras`**: Keras model for video frame emotion classification, trained on various features from the dataset.
 
 ### `results/`
 - **`Naive Bayes Model_confusion_matrix.png`**: Confusion matrix for the Naive Bayes model.
@@ -35,14 +35,14 @@ The project consists of the following main directories and files:
 - **`val_profile(2).html`**: Profiling of the validation dataset using Sweetviz.
 
 ### `dlp/`
+- **`00_train_test_split.py`**: Script for splitting the dataset into training and testing sets.
+- **`01_step_extraction.py`**: Feature extraction script for the dataset.
+- **`02_audio.py`**: Script for audio preprocessing and feature extraction.
+- **`03_video_224.py`**: Video processing script for extracting frames for emotion classification.
+- **`04_spectrogram.py`**: Script for spectrogram generation from audio data.
 - **`05_final_fusion_model.py`**: Script for the final fusion model combining different modalities for emotion classification.
 - **`emotion_text_classification.py`**: Script to perform text-based emotion classification using different algorithms.
 - **`allin_one.py`**: Unified script combining all preprocessing, feature extraction, and model training into one.
-- **`04_spectrogram.py`**: Script for spectrogram generation from audio data.
-- **`02_audio.py`**: Script for audio preprocessing and feature extraction.
-- **`00_train_test_split.py`**: Script for splitting the dataset into training and testing sets.
-- **`01_step_extraction.py`**: Feature extraction script for the dataset.
-- **`03_video_224.py`**: Video processing script for extracting frames for emotion classification.
 
 ### `notebooks/`
 - **`data-engineering-and-model-devlopment(3).ipynb`**: Jupyter notebook for data engineering and initial model development.
