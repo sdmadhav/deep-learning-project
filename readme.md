@@ -9,6 +9,8 @@ This repository contains a deep learning project aimed at emotion classification
 The project consists of the following main directories and files:
 
 ### `datasets/`
+>![image](https://github.com/user-attachments/assets/500c1899-e5b8-44dc-b067-066ca29e05ff)
+
 - **`text_emotion_dataset.csv`**: The main dataset used for training and testing models. It contains labeled text data for emotion classification.
 - **`dataset_generator.py`**: Script to generate the dataset, preprocess the data, and split it into training, validation, and test sets.
 - **`mapping_train_test_valid.csv`**: CSV file containing the mapping of data samples to train, test, and validation splits.
@@ -35,7 +37,7 @@ The project consists of the following main directories and files:
 - **`evaluation_metrics(1).png`**: Visualized evaluation metrics for the model.
 - **`01-01-05-01-01-01-06_audio.png`**: Audio feature visualization for one of the samples.
 - **`val_profile(2).html`**: Profiling of the validation dataset using Sweetviz.
-![image](https://github.com/user-attachments/assets/311ca991-6480-468b-bc32-3897444b0a90) ![image](https://github.com/user-attachments/assets/a3fe187b-32a0-46d3-9667-101a2c46f381) ![image](https://github.com/user-attachments/assets/b69fbaee-975d-48f8-9611-52be0a3b0820) ![image](https://github.com/user-attachments/assets/4eccfe1b-0c3a-4041-a346-81e30574387f)
+
 
 ### `dlp/`
 >![MultiModal Emotion Recognition Architecture](https://github.com/sdmadhav/deep-learning-project/blob/main/results/Screenshot%202025-04-15%20192652.png)
