@@ -42,7 +42,9 @@ The project consists of the following main directories and files:
 - **`00_train_test_split.py`**: Script for splitting the dataset into training and testing sets.
 - **`01_step_extraction.py`**: Feature extraction script for the dataset.
 - **`02_audio.py`**: Script for audio preprocessing and feature extraction.
-- **`03_video_224.py`**: Video processing script for extracting frames for emotion classification.
+- **`03_video_224.py`**: Video processing , Face emotion recognition model defined and trained here and script for extracting frames for emotion classification.
+> ![frame classification model architecture](https://github.com/sdmadhav/deep-learning-project/blob/main/results/Screenshot%202025-04-15%20204653.png)
+
 - **`04_spectrogram.py`**: Script for spectrogram generation from audio data.
 - **`05_final_fusion_model.py`**: Script for the final fusion model combining different modalities for emotion classification.
 - **`emotion_text_classification.py`**: Script to perform text-based emotion classification using different algorithms.
