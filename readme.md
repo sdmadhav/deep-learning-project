@@ -37,6 +37,8 @@ The project consists of the following main directories and files:
 - **`val_profile(2).html`**: Profiling of the validation dataset using Sweetviz.
 
 ### `dlp/`
+>![MultiModal Emotion Recognition Architecture](https://github.com/sdmadhav/deep-learning-project/blob/main/results/Screenshot%202025-04-15%20192652.png)
+
 - **`00_train_test_split.py`**: Script for splitting the dataset into training and testing sets.
 - **`01_step_extraction.py`**: Feature extraction script for the dataset.
 - **`02_audio.py`**: Script for audio preprocessing and feature extraction.
