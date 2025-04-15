@@ -1,7 +1,9 @@
 # Emotion Classification from Multimodal Data
 
 This repository contains a deep learning project aimed at emotion classification using multiple data modalities, including text, audio, and video. The goal is to classify emotions from a variety of data sources using different machine learning models and techniques.
-![Spectrogram](https://github.com/sdmadhav/deep-learning-project/blob/main/results/01-01-05-01-01-01-06_audio.png)
+
+> ![Spectrogram](https://github.com/sdmadhav/deep-learning-project/blob/main/results/01-01-05-01-01-01-06_audio.png)
+
 ## Project Structure
 
 The project consists of the following main directories and files:
